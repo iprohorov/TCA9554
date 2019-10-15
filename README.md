@@ -4,7 +4,6 @@ This library help work with TCA9554 GPIO expander.
 For start download .zip archive or simple .h file and include in your project.
 ### Example
 ```
-[code]
     #include <Wire.h>
 
     TCA9554 gpioExpander (56);
@@ -23,5 +22,4 @@ For start download .zip archive or simple .h file and include in your project.
         gpioExpander.DigitalWrite(1,HIGH);
         delay(1000);      
     }
-[/code]
 ```
