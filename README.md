@@ -18,9 +18,9 @@ For start download .zip archive or simple .h file and include in your project.
     }
     void loop()
     {
-        gpioExpander.DigitalWrite(1,LOW);
-        delay(1000);
-        gpioExpander.DigitalWrite(1,HIGH);
-        delay(1000);      
+      gpioExpander.DigitalWrite(1,LOW);
+      delay(1000);
+      gpioExpander.DigitalWrite(1,HIGH);
+      delay(1000);      
     }
 ```
