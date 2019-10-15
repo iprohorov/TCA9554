@@ -14,6 +14,7 @@ For start download .zip archive or simple .h file and include in your project.
       Serial.begin(9600);
       while (!Serial);
       delay(1000);
+      gpioExpander.PinSetMode(1,OUTPUT);
     }
     void loop()
     {
